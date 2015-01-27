@@ -83,7 +83,10 @@ main {
 
 
   text-align: center;
-    padding-bottom: 3em;
+    
+
+
+  padding-bottom: .5em;
 	text-align: left;
     /* width: 23em; */
     margin: 0;
@@ -100,6 +103,8 @@ main {
 
 p {
     font-weight: 300;
+    padding: 8px 0;
+    line-height: 22px;
 }
 
 header {
@@ -112,7 +117,7 @@ header {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #56A0D3;
 }
 
 a:visited {
@@ -122,7 +127,16 @@ a:visited {
 
 a:hover  {
     
- border-bottom: 3px solid #56A0D3
+ border-bottom: 3px solid #56A0D3;
+}
+
+
+a.bookTitle {
+    color: black;
+}
+
+a.nav {
+    color: black;
 }
 
 
@@ -204,6 +218,7 @@ ul.bookList {
 span.author {
     font-weight: 300;
     font-style: italic;
+    color: black;
 }
 
 
@@ -216,14 +231,16 @@ span.author {
 img.avatar {
    width:95%;
   
+   padding: 4px 0;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 580px) {
   img.avatar {
     float:right;
 	height:300px;
 	width:300px;
-	padding: 0 0 1em 1em;
+	
+    padding: .7em 0 1em 1em;
   }
 }
 
@@ -232,6 +249,7 @@ img.avatar {
 	
 	margin-left: auto;
     margin-right: auto;
-    width: 900px;
+    
+	width: 850px;
   }
 }
